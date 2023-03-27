@@ -69,7 +69,7 @@ p {
     right: 1rem;
     bottom: 3rem;
     font-size: 4rem;
-    color: lightgrey;
+    color: rgba(0, 0, 0, 0.15);
     user-select: none;
 }
 
@@ -81,13 +81,6 @@ p {
     color: var(--color2);
     font-weight: bolder;
     cursor: pointer;
-    user-select: none;
-}
-
-.App__btn:hover {
-    transform: translateY(-0.25em);
-    box-shadow: 0 0.5em 0.5em -0.4em var(--color1);
-    color: var(--color1);
     user-select: none;
 }
 
@@ -110,6 +103,13 @@ p {
 
     .phrase {
         max-width: 500px;
+    }
+
+    .App__btn:hover {
+        transform: translateY(-0.25em);
+        box-shadow: 0 0.5em 0.5em -0.4em var(--color1);
+        color: var(--color1);
+        user-select: none;
     }
 
     .App__by {
