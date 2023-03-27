@@ -84,6 +84,13 @@ p {
     user-select: none;
 }
 
+.App__btn:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--color1);
+    color: var(--color1);
+    user-select: none;
+}
+
 .App__by {
     position: absolute;
     bottom: 1rem;
@@ -105,12 +112,6 @@ p {
         max-width: 500px;
     }
 
-    .App__btn:hover {
-        transform: translateY(-0.25em);
-        box-shadow: 0 0.5em 0.5em -0.4em var(--color1);
-        color: var(--color1);
-        user-select: none;
-    }
 
     .App__by {
         position: inherit;
