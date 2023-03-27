@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
 :root {
     --color1: hsl(0, 0%, 100%);
     --color2: hsl(0, 0%, 50%);
-    --colorBgPhrase: rgba(255, 255, 255, 90%);
 }
 
 * {
@@ -47,13 +48,14 @@ p {
 
 
 .content__phrase {
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.27));
+    filter: drop-shadow(15px 15px 5px rgba(0, 0, 0, 0.27));
 }
 
 .phrase {
-    background-color: var(--colorBgPhrase);
+    background-color: var(--color1);
     color: var(--color2);
     min-height: 300px;
+    min-width: 300px;
     width: 90vw;
     display: flex;
     align-items: center;
@@ -62,6 +64,7 @@ p {
     padding: 2rem 3rem;
     clip-path: polygon(0% 20%, 5% 21%, 10% 22%, 15% 23%, 20% 23.5%, 25% 23.5%, 30% 23%, 35% 22%, 40% 20%, 45% 18%, 50% 16.5%, 55% 15%, 60% 13.5%, 65% 13%, 70% 12.7%, 75% 13%, 80% 13.5%, 85% 15%, 90% 16.5%, 95% 18%, 100% 20%,
             100% 80%, 95% 78%, 90% 76.5%, 85% 75%, 80% 73.5%, 75% 73%, 70% 72.7%, 65% 73%, 60% 73.5%, 55% 75%, 50% 76.5%, 45% 78%, 40% 80%, 35% 82%, 30% 83%, 25% 83.5%, 20% 83.5%, 15% 83%, 10% 82%, 5% 81%, 0% 80%);
+    font-family: 'Fasthand', cursive;
 }
 
 .phrase span {
@@ -100,6 +103,7 @@ p {
     border-radius: 0.5rem;
     background-color: hsl(0, 0%, 100%, 50%);
     color: var(--color2);
+    min-width: max-content;
 }
 
 .App__by:hover {
