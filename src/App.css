@@ -66,7 +66,7 @@ p {
 
 .phrase span {
     position: absolute;
-    right: 1rem;
+    right: 0.5rem;
     bottom: 3rem;
     font-size: 4rem;
     color: rgba(0, 0, 0, 0.15);
