@@ -1,11 +1,11 @@
 import getRandomArray from "../utils/getRandomArray";
 import phrases from "../utils/phrases.json";
 
-const Button = ({ setRandomPhrase, setBgRandom }) => {
+const Button = ({ setRandomPhrase, setBgRandom, bgs }) => {
 
   const handleChangePhrase = () => {
     setRandomPhrase(getRandomArray(phrases))
-    setBgRandom(getRandomArray([1, 2, 3, 4]))
+    setBgRandom(getRandomArray(bgs))
   }
 
 

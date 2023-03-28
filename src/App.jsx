@@ -22,7 +22,7 @@ const appAtyle = {
     <div style={appAtyle} className="App">
       <h1 className='App__title'>GALLETA DE LA FORTUNA</h1>
       <Phrase phraseRandom={phraseRandom}/>
-      <Button setRandomPhrase={setRandomPhrase} setBgRandom={setBgRandom}/>
+      <Button setRandomPhrase={setRandomPhrase} setBgRandom={setBgRandom} bgs={bgs}/>
       <Author phraseRandom={phraseRandom}/>
     </div>
   )
